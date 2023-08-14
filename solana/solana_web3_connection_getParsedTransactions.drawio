@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T02:20:56.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="NtIpm4_n0nGRZo00Gg9U" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T03:01:34.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TWmNokG1DUpcaOLFv0VA" version="21.6.8" type="github">
   <diagram name="페이지-1" id="EBCRiEzwZBse_Ma0ATIq">
-    <mxGraphModel>
+    <mxGraphModel dx="1183" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-1" value="ParsedTransactionWithMeta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-4" value="blockTime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-5" value="meta&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-6" value="slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-7" value="transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-8" value="version" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-11" value="The unix timestamp of when the transaction was processed&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;code ) new Date(blockTime * 1000).toISOString();&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="95" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-13" value="computeUnitsConsumed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-16" value="computeUnitsConsumed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-17" value="error" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-18" value="fee" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-19" value="innerInstructions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-20" value="loadedAddress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-21" value="logMessage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-22" value="postBalances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-23" value="postTokenBalances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="590" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-24" value="preBalances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="650" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-25" value="preTokenBalances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="710" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-36" value="index" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-37" value="instructions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-38" value="ParsedInstructions" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="410" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-39" value="parsed&lt;br&gt;program&lt;br&gt;programId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;swimlaneLine=1;" vertex="1" parent="PDa6-fFEPDLGDv39NDTm-38">
+          <mxGeometry x="10" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-40" value="PartiallyDecodedInstruction" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="520" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-41" value="accounts&lt;br&gt;data&lt;br&gt;programId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;swimlaneLine=1;" vertex="1" parent="PDa6-fFEPDLGDv39NDTm-40">
+          <mxGeometry x="10" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-42" value="The slot during which the transaction was processed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="805" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-43" value="message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="890" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-44" value="signatures" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1120" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-45" value="accountKeys" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="890" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-46" value="addressTableLookups" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="950" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-47" value="instructions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1010" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-48" value="recentBlockhash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1070" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-49" value="ParsedInstructions" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1010" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-50" value="parsed&lt;br&gt;program&lt;br&gt;programId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;swimlaneLine=1;" vertex="1" parent="PDa6-fFEPDLGDv39NDTm-49">
+          <mxGeometry x="10" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-51" value="PartiallyDecodedInstruction" style="swimlane;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1120" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-52" value="accounts&lt;br&gt;data&lt;br&gt;programId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;swimlaneLine=1;" vertex="1" parent="PDa6-fFEPDLGDv39NDTm-51">
+          <mxGeometry x="10" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-54" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=12.5;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDa6-fFEPDLGDv39NDTm-55" value="getParsedTransactions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="65" y="95" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
